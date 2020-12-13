@@ -8,5 +8,5 @@ class Circle{
   set area(area){this._area=area}
   get diameter(){return this._diameter=this.radius*2}
   get circumference(){return this._circumference=Math.PI*this.radius*2}
-  get area(){return this._area=Math.PI*(this.radius**2)}
+  get area(){return this._area=Math.PI*this.radius**2)}
 }
